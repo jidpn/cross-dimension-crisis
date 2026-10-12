@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
-    <title>Cross Dimension Crisis</title>
+    <title>Cross Dimension Crisis FPS</title>
     <style>
       html,
       body {
@@ -22,12 +22,16 @@
       canvas {
         position: absolute;
         display: block;
+      }
+      /* 3D のフィールド (下) と、HUD・メニュー・文字の 2D (上) を重ねる */
+      #gl {
         box-shadow: 0 0 40px rgba(80, 120, 255, 0.25);
       }
     </style>
-    <script type="module" crossorigin src="./assets/index-BH07WvjM.js"></script>
+    <script type="module" crossorigin src="./assets/index-DFlbRyNH.js"></script>
   </head>
   <body>
+    <canvas id="gl"></canvas>
     <canvas id="screen"></canvas>
   </body>
 </html>
