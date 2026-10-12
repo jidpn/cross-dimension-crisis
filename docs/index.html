@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+    <title>Cross Dimension Crisis</title>
+    <style>
+      html,
+      body {
+        margin: 0;
+        height: 100%;
+        background: #05060c;
+        overflow: hidden;
+      }
+      body {
+        /* スマホで画面がスクロール・拡大しないように */
+        touch-action: none;
+        overscroll-behavior: none;
+        -webkit-user-select: none;
+        user-select: none;
+      }
+      canvas {
+        position: absolute;
+        display: block;
+        box-shadow: 0 0 40px rgba(80, 120, 255, 0.25);
+      }
+    </style>
+    <script type="module" crossorigin src="./assets/index-BH07WvjM.js"></script>
+  </head>
+  <body>
+    <canvas id="screen"></canvas>
+  </body>
+</html>
